@@ -1,0 +1,233 @@
+.home {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+img.jetSky {
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  height: 120vh;
+  width: 120vw;
+  transition: transform 2s ease-in, rotate ease-out 2s;
+}
+.homeXition {
+  transform: scale(2.4);
+  rotate: -20deg;
+}
+img.jet {
+  position: absolute;
+  width: 100%;
+  height: 87%;
+  bottom: 0;
+  transition: 1s;
+}
+
+.screenMsg {
+  display: none;
+}
+@font-face {
+  font-family: "LCD";
+  src: url("../assets/LCD2L___.TTF");
+  font-style: normal;
+  font-weight: normal;
+}
+.homeLink {
+  opacity: 1;
+  width: 88px;
+  transition: 1s;
+}
+.homeLink:hover {
+  transform: scale(1.1);
+  filter: saturate(120%);
+}
+.homeFit {
+  position: absolute;
+  opacity: 1;
+  top: 1%;
+  right: 3%;
+  width: 92px;
+  height: 68px;
+  background-color: transparent;
+  z-index: 2;
+}
+article {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  width: 101%;
+  height: 2.55rem;
+  background-image: linear-gradient(
+    rgba(10, 10, 10, 0.6),
+    rgba(10, 10, 10, 0.2),
+    rgba(10, 10, 10, 0.6)
+  );
+  transform: translate(-50%, 0);
+  text-align: center;
+  /* padding-top: 0.3rem; */
+  /* text-shadow: 0 0 5px #147ed4; */
+  color: #8dd35f;
+  font-family: "LCD";
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 2.2rem;
+  padding-top: 0.5rem;
+  z-index: 2;
+}
+a {
+  position: absolute;
+  display: block;
+  background-color: transparent;
+  height: 55px;
+  width: 40px;
+  opacity: 0.8;
+  color: #8dd35f;
+  text-align: center;
+  text-decoration: none;
+}
+.screenM {
+  left: 39.9%;
+  top: 50%;
+  height: 88px;
+  width: 78px;
+  border-radius: 20px;
+}
+.screenMG {
+  background-color: rgba(59, 248, 17, 0.5);
+}
+.screenL {
+  left: 27.5%;
+  top: 66%;
+}
+.screenLG {
+  background-color: rgba(59, 248, 17, 0.5);
+}
+.screenN {
+  left: 45%;
+  top: 74%;
+}
+.screenNG {
+  background-color: rgba(59, 248, 17, 0.5);
+}
+.screenS {
+  left: 63%;
+  top: 66%;
+}
+.screenSG {
+  background-color: rgba(59, 248, 17, 0.5);
+}
+.groceryBtn {
+  opacity: 1;
+  right: 4%;
+  bottom: 10%;
+}
+.loginBack {
+  background-image: url(../../../public/LMCFlag.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  overflow: hidden;
+  /* background-position: bottom; */
+}
+.loginBack p {
+  width: 100%;
+  top: 3%;
+  /* left: 50%;
+  transform: translate(-50%, -50%); */
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  position: absolute;
+}
+.loginBack input {
+  width: 12rem;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4rem;
+  background-color: rgba(245, 248, 248, 1);
+  border-radius: 10px;
+  padding-left: 1rem;
+  height: 1.7rem;
+  border: 4px solid #79c2ff;
+}
+input.wrongID {
+  background-color: rgb(235, 101, 101);
+}
+.loginBack button {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #79c2ff;
+  border-radius: 6px;
+  border: 2px solid #4199db;
+  height: 2.5rem;
+  width: 6rem;
+  cursor: pointer;
+  animation: fadeIn 5s;
+  box-shadow: 2px 2px 2px #888;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 427px) {
+  .screenM {
+    left: 41%;
+    top: 50.2%;
+  }
+  .screenL {
+    left: 28%;
+    top: 65.6%;
+  }
+  .screenS {
+    left: 63.7%;
+    top: 66%;
+  }
+  .screenN {
+    left: 46%;
+    top: 74%;
+  }
+}
+
+@media (min-width: 485px) {
+  .screenMsg {
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+    font-family: "LCD", sans-serif;
+    color: red;
+    font-size: 3rem;
+  }
+  article {
+    display: none;
+  }
+  img.jet {
+    display: none;
+  }
+  .loginBack input {
+    display: none;
+  }
+  .loginBack {
+    background-image: url(../../../public/largeScreenBack.jpg);
+  }
+}

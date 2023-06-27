@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.531563c8.css",
+    "main.js": "/static/js/main.12961049.js",
+    "static/media/jetConsole.png": "/static/media/jetConsole.6530c072a2b18c12bb8f.png",
+    "static/media/CRoom1.jpg": "/static/media/CRoom1.308e12afd9fa3e78eeba.jpg",
+    "static/media/sub.jpg": "/static/media/sub.436b81d3d8970546c4e3.jpg",
+    "static/media/jetSky.jpg": "/static/media/jetSky.f738f17220a6e48830dc.jpg",
+    "static/media/B2.jpg": "/static/media/B2.223462e242c80099bd92.jpg",
+    "static/media/CRoom2.jpg": "/static/media/CRoom2.ff30d10b2ce2f16d2214.jpg",
+    "static/media/tank.jpg": "/static/media/tank.7a43dc286d39ea9b67ca.jpg",
+    "static/media/NsubControl.jpg": "/static/media/NsubControl.d1b4f89f1e0e73b60ee9.jpg",
+    "static/media/LMCFlag.jpg": "/static/media/LMCFlag.9f8dd644fdf0a6ad7651.jpg",
+    "static/media/largeScreenBack.jpg": "/static/media/largeScreenBack.af9a8ac287dc07db7259.jpg",
+    "static/media/CRoom3.jpg": "/static/media/CRoom3.421c825db9e49c198f37.jpg",
+    "static/media/LCD2L___.TTF": "/static/media/LCD2L___.f66db8497242fa4281e1.TTF",
+    "static/media/cannon.mp3": "/static/media/cannon.abf7122a777b3016cc89.mp3",
+    "static/media/grocery.jpg": "/static/media/grocery.01712c01fb3da78bce20.jpg",
+    "static/media/Flag.png": "/static/media/Flag.e5e164b1a0bd6200a3ef.png",
+    "static/media/jetClick.mp3": "/static/media/jetClick.219decf176eeadc3799d.mp3",
+    "index.html": "/index.html",
+    "main.531563c8.css.map": "/static/css/main.531563c8.css.map",
+    "main.12961049.js.map": "/static/js/main.12961049.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.531563c8.css",
+    "static/js/main.12961049.js"
+  ]
+}

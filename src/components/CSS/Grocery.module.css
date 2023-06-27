@@ -1,0 +1,56 @@
+.grocery {
+  background-image: url(../../../public/grocery.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.listContain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.75rem;
+}
+.items {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.addBtn,
+.clearBtn {
+  position: absolute;
+  bottom: 3%;
+  border-radius: 14px;
+  height: 2.75rem;
+  width: 7.5rem;
+  font-size: 1.75rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border: 2px solid #eee;
+  color: #ffffff;
+  cursor: pointer;
+}
+.inputItems {
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
+  transform: translateX(-50%);
+  width: 87%;
+  height: 4%;
+  font-size: 1.25rem;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
+  padding-left: 0.75rem;
+}
+.addBtn {
+  background-image: linear-gradient(#79c2ff, blue);
+  right: 3%;
+}
+.clearBtn {
+  background-image: linear-gradient(rgb(245, 138, 170), red);
+  left: 3%;
+}

@@ -1,0 +1,144 @@
+/* @font-face {
+  font-family: "beam";
+  src: url("./beamweaponexpand.ttf");
+} */
+.ctrlRoom {
+  background-image: url(../../../public/CRoom1.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.editRoom {
+  background-image: url(../../../public/CRoom3.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.mCtrlRoom {
+  left: 36%;
+  top: 54%;
+  width: 70px;
+}
+.choice2,
+.choice1 {
+  position: absolute;
+  height: 120px;
+  width: 140px;
+  cursor: pointer;
+}
+.choice1 {
+  top: 25%;
+  left: 2%;
+}
+.choice2 {
+  top: 26%;
+  left: 41%;
+}
+
+.dash1,
+.dash2 {
+  color: #000;
+  /* z-index: 2;
+  position: relative; */
+}
+p {
+  font-size: 1rem;
+}
+.topInfoM,
+.middleInfoM,
+.bottomInfoM {
+  color: aliceblue;
+  position: absolute;
+  background-color: rgba(1, 1, 1, 0.5);
+  border-radius: 12px;
+  border: 3px solid rgba(121, 194, 255, 0.7);
+}
+.topInfoM {
+  top: 11%;
+  left: 4%;
+  max-width: 90%;
+}
+.middleInfoM {
+  top: 40%;
+  right: 4%;
+}
+.bottomInfoM {
+  background-color: rgba(245, 245, 245, 0.78);
+  border: 3px solid rgba(121, 194, 255, 0.5);
+  border-radius: 12px;
+  color: #222;
+  width: 80%;
+  bottom: 12%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.mPageInfoP {
+  font-size: 1.75rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: "Courier New", Courier, monospace;
+  padding: 0.6rem;
+  text-align: center;
+}
+h3 {
+  margin: 0;
+}
+.inputTitles,
+.inputTitles2,
+.inputTitles3 {
+  text-shadow: 0px 0px 2px white;
+  background-color: rgba(245, 245, 245, 0.78);
+  border: 5px solid rgba(121, 194, 255, 0.5);
+  display: inline-block;
+  border-radius: 12px;
+  padding: 10px;
+  position: absolute;
+  left: 2%;
+  /* font-family: "beam"; */
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  /* text-align: center; */
+}
+.inputTitles3 {
+  bottom: 7%;
+}
+.inputTitles2 {
+  bottom: 46%;
+  left: 51.5%;
+}
+.inputTitles {
+  top: 2.5%;
+}
+textarea {
+  width: 300px;
+}
+.inputTitles form input {
+  width: 14rem;
+  height: 1.2rem;
+}
+.inputTitles form input,
+.inputTitles2 form input,
+.inputTitles3 form input {
+  height: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+}
+/* form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.inputTitles form button,
+.inputTitles2 form button,
+.inputTitles3 form button {
+  height: 2rem;
+  width: 4rem;
+  margin-top: 1rem;
+  font-family: "Courier New", Courier, monospace;
+}

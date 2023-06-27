@@ -1,0 +1,131 @@
+body {
+  overflow: hidden;
+}
+.sub {
+  background-image: url(../../../public/sub.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.subCtrl {
+  background-image: url(../../../public/NsubControl.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  color: aliceblue;
+}
+.ctrlRoom {
+  left: 32%;
+  top: 22%;
+  height: 58px;
+  width: 78px;
+}
+.nHome {
+  height: fit-content;
+  position: absolute;
+  top: 1%;
+  right: 5%;
+}
+p {
+  font-size: 1.35rem;
+  margin: 0;
+}
+.pPad {
+  padding-top: 1rem;
+}
+
+.topInfoN,
+.leftInfoN,
+.rightInfoN,
+.bottomInfoN {
+  color: aliceblue;
+  position: absolute;
+  font-family: "Courier New", Courier, monospace;
+  left: 3%;
+  background-color: rgba(2, 2, 2, 0.4);
+  border-radius: 10px;
+  border: 3px solid rgba(121, 194, 255, 0.7);
+  padding: 0.6rem;
+  text-align: center;
+}
+.topInfoN {
+  top: 2%;
+  width: 60%;
+}
+.leftInfoN {
+  top: 62.5%;
+  color: #222;
+  background-color: rgba(240, 240, 240, 0.7);
+}
+.rightInfoN {
+  top: 32%;
+  left: 51%;
+  width: 40%;
+}
+.bottomInfoN {
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 75%;
+}
+.inputTitles,
+.inputTitles2,
+.inputTitles3,
+.inputTitles4 {
+  /* text-shadow: 1px 1px 1px white; */
+  background-color: rgba(2, 2, 2, 0.4);
+  border: 5px solid rgba(121, 194, 255, 0.7);
+  display: inline-block;
+  border-radius: 12px;
+  padding: 10px;
+  position: absolute;
+  font-family: "Courier New", Courier, monospace;
+}
+.inputTitles3 {
+  bottom: 24.5%;
+  left: 3%;
+}
+.inputTitles3 form input {
+  width: 14rem;
+}
+.inputTitles4 {
+  bottom: 3%;
+  right: 10%;
+}
+.inputTitles4 form input {
+  width: 3.5rem;
+}
+.inputTitles2 {
+  top: 28%;
+  right: 10%;
+}
+.inputTitles {
+  top: 2%;
+  left: 3%;
+}
+
+.inputTitles form input {
+  width: 14rem;
+  height: 1.2rem;
+}
+.inputTitles form input,
+.inputTitles2 form input,
+.inputTitles3 form input,
+.inputTitles4 form input {
+  height: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+.inputTitles form button,
+.inputTitles2 form button,
+.inputTitles3 form button,
+.inputTitles4 form button {
+  height: 2rem;
+  width: 4rem;
+  margin-top: 1rem;
+  font-family: "Courier New", Courier, monospace;
+}

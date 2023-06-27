@@ -1,0 +1,53 @@
+.b2 {
+  background-image: url(../../../public/B2.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.pSInfo {
+  font-size: 1.4rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.pSInfo2 {
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  padding-top: 0.6rem;
+}
+.topInfoS {
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: aliceblue;
+}
+.middleInfoS {
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  bottom: 35%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: #333;
+  text-shadow: 0px 0px 3px aliceblue;
+}
+.bottomInfoS {
+  position: absolute;
+  padding-top: 0.4rem;
+  background-color: rgba(245, 245, 245, 0.7);
+  border: 2px solid #79c2ff;
+  border-radius: 12px;
+  bottom: 2%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%, 0%);
+  font-size: 0.8rem;
+  color: #333;
+  text-shadow: 0px 0px 3px aliceblue;
+  text-align: center;
+}
